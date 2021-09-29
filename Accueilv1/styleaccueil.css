@@ -1,0 +1,79 @@
+
+ header {
+    background: rgb(201, 201, 201);
+    height: 100px;
+ }
+   
+ body  {
+
+
+    background: rgb(128, 127, 127);
+ }
+ 
+footer {
+
+
+
+    background: rgb(59, 59, 59);
+ }
+   
+.entete { 
+ display :flex ; 
+ background: rgb(201, 201, 201); 
+
+}
+
+.entete > div {
+  background-color:rgb(253, 11, 11);
+  margin: 30px;
+  padding: 30px;
+  font-size: 30px;
+  
+}
+    
+.entete > div > img { 
+width: 150px;
+height: 150px;
+ 
+  
+}
+.formules { 
+    display :flex;
+    background: rgb(253, 11, 11);
+
+
+}
+
+
+
+.formules > div {
+    background-color: rgb(253, 11, 11);
+    
+
+}
+       
+.bandeauh > div { 
+    display :flex;
+    background: rgb(255, 0, 0);
+    color: ghostwhite;
+   }
+
+   
+.button {
+    background-color: #f10d0d;
+    border: 1px; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
