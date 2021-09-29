@@ -1,12 +1,21 @@
 
-   header {
+  @font-face {
+    font-family: 'tekturts'; /** Nom de la police **/
+    src: url('../tekturts.ttf'); /** Chemin de stockage **/
+  }
+  
+  
+  header {
     background: rgb(201, 201, 201);
     height: 100px;
+    
  }
    
   body  {
 
-
+    font-family: 'tekturts'; /** Nom de la police **/
+    src: url('../tekturts.ttf');
+    font-size: xx-large;
     background: rgb(128, 127, 127);
  }
 
@@ -23,43 +32,47 @@ footer {
 .entete { 
  display :flex ; 
  background: rgb(201, 201, 201); 
+ margin: left 200px;
 
 }
 
 .entete > div {
   background-color:rgb(253, 11, 11);
-  margin: 30px;
-  padding: 30px;
+  margin: 100px;
+  padding: 5px;
   font-size: 30px;
   
 }
     
 .entete > div > img { 
-width: 150px;
-height: 150px;
- 
+width: 50px;
+height: 50px;
+ float:left
   
 }
 .formules { 
     display :flex;
     background: rgb(253, 11, 11);
-
+    background-color: rgb(253, 11, 11);
 
 }
 
 
 
 .formules > div {
-    background-color: rgb(253, 11, 11);
+
+   
     
 
 }
        
-.bandeauh > div { 
+.bandeau  { 
     display :flex;
     background: rgb(255, 0, 0);
     color: ghostwhite;
    }
+  
+
 
    
 .button {
@@ -144,10 +157,7 @@ height: 150px;
      justify-content:center;
     
    }/* j'ai mis un espace */
- /*  @font-face {
-    font-family: 'tekturts'; /** Nom de la police **/
-    src: url('tekturts.ttf'); /** Chemin de stockage **/
-  }
+ /*  
   /*
   
   
